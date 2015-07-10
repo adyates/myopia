@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name":"Myopia",
+    "description": "Displays the nearest KSW location city and distance from a given address.",
+    "version": "0.2",
+    "icons": {
+        "16": "icon/icon-sm.png",
+        "48": "icon/icon-m.png",
+        "128": "icon/icon-lg.png"
+    },
+
+    "browser_action": {
+    },
+    
+    "background": {
+        "scripts": ["lodash.min.js", "geodata.js", "context_menu.js", "search.js"]
+    },
+    
+    "permissions": [
+        "activeTab",
+        "contextMenus",
+        "https://maps.googleapis.com/maps/api/geocode/json"
+    ]
+}
