@@ -1,9 +1,0 @@
-// Local data-munge files that don't need to be committed
-school_geodata.csv
-geodata.js
-ksw_conversion.py
-
-
-
-// Emacs temp files
-*~
