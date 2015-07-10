@@ -20,7 +20,11 @@ exist in your plugin, you will need to create a file with the following contents
 
 __geodata.js__
 
-```var CANDIDATES = [...{'lat': 45.5230622, 'lon': -122.6764816, 'location': 'Portland, OR'}]```
+```
+var CANDIDATES = [
+   ...{'lat': 45.5230622, 'lon': -122.6764816, 'location': 'Portland, OR'}
+]
+```
 
 This is loaded directly onto the page and used in the neighbor search.
     
